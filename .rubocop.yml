@@ -25,7 +25,9 @@ Style/FormatString:
   EnforcedStyle: percent
 
 Style/FormatStringToken:
-  EnforcedStyle: unannotated
+  Enabled: false
+  # we really weant 1 == unannotated||anntated and >1 == annotated
+  #EnforcedStyle: unannotated
 
 Style/RescueModifier:
   Enabled: false
